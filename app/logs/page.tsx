@@ -1,9 +1,12 @@
+import Navbar from "@/components/Navbar";
+
 export default function Logs() {
   return (
-    <div className="min-h-screen bg-white flex items-center justify-center">
-      <main className="flex flex-col items-center justify-center">
+    <div className="min-h-screen bg-black text-white">
+      <Navbar />
+      <div className="flex items-center justify-center min-h-[calc(100vh-120px)]">
         {/* Empty content for now */}
-      </main>
+      </div>
     </div>
   );
 }
